@@ -26,7 +26,7 @@ library(sf)
 
 ```{r, echo=FALSE, message=FALSE}
 #getwd()
-setwd("/Users/christineraj/Documents/PM566/PM566F")
+#setwd("/Users/christineraj/Documents/PM566/PM566F")
 
 #uploading the seperate data sheets and getting rid of all the labels from the first 5 rows
 whodata1labels <- data.table::fread("whs2023_annex1.csv")
