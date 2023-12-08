@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Christine Raj">
+
+<title>PM566Final - Report</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">PM566Final</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./SupplementalInformation.html" rel="" target="">
+ <span class="menu-text">Supplemental Information</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Report.pdf" rel="" target="">
+ <span class="menu-text">Report</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-question-do-countries-with-higher-percentage-of-females-with-their-needs-for-family-planning-met-with-modern-methods-have-lower-neonatal-mortality-rates" id="toc-research-question-do-countries-with-higher-percentage-of-females-with-their-needs-for-family-planning-met-with-modern-methods-have-lower-neonatal-mortality-rates" class="nav-link active" data-scroll-target="#research-question-do-countries-with-higher-percentage-of-females-with-their-needs-for-family-planning-met-with-modern-methods-have-lower-neonatal-mortality-rates"><strong>Research Question: Do countries with higher percentage of females with their needs for family planning met with modern methods have lower neonatal mortality rates?</strong></a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><strong>Methods</strong></a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><strong>Results</strong></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong>Conclusion</strong></a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Report.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Christine Raj </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="research-question-do-countries-with-higher-percentage-of-females-with-their-needs-for-family-planning-met-with-modern-methods-have-lower-neonatal-mortality-rates" class="level2">
+<h2 class="anchored" data-anchor-id="research-question-do-countries-with-higher-percentage-of-females-with-their-needs-for-family-planning-met-with-modern-methods-have-lower-neonatal-mortality-rates"><strong>Research Question: Do countries with higher percentage of females with their needs for family planning met with modern methods have lower neonatal mortality rates?</strong></h2>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction"><strong>Introduction</strong></h2>
+<p>The World Health Organization has made one of its sustainable development goals increasing the number of women who use modern family planning methods. Family planning methods are contraceptive methods that allow women to be sexually active without the worry of becoming pregnant. There are many reasons to increase the amount of women who use family planning including population control, increased maternal health, decreased number of unwanted children, and many more reasons. One reason that increasing family planning may be a positive thing is that it may allow the women to be better prepared for having a child and increase the amount of care the neonate can have access to.</p>
+<p>This leads me to the question of whether countries with higher percentage of females with their needs for family planning met with modern methods have lower neonatal mortality rates. I will also be looking at whether family planning has an association with 5 year mortality as well as adolescent birth rates.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods"><strong>Methods</strong></h2>
+<p>In order to answer the question posed above, data from the World Health Organization (WHO) was obtained. The WHO obtains yearly statistics by country to see how countries are working towards the sustainable development goals that the WHO has set. The data is collected and organized by the WHO and they release the comparable estimates of each country for each sustainable development goal. For this project, I looked at the data by country and obtained each countries proportion of women who have their need for family planning met. This is the independent variable for this project. As the primary outcome I obtained the number of neonatal mortality by country per 1000 neonates. For secondary outcomes I looked at the number of 5 year mortality per 1000 people by country, and the adolescent birth rate of both adolescents aged 10-14 and 15-19. I uploaded this data from the WHO and started by ensuring that there were no labels to interfere with the analysis within the data set and removed all of those. I ensured that each variable was coded as a numeric variable except for the countries variable which was coded as a character. As the primary and independent variables did not have data from certain countries, I eliminated those countries from the data set as they would add no value to the analysis. I did not eliminate countries with unavailable data for the secondary outcomes as this was less important and I did not want to skew the data of the main outcome. The percentage of countries with family planning is skewed to the right somewhat with a range of 2.1 to 89.6. There are no outliers. Neonatal mortality is slightly skewed to the left with no outliers and a range of 1 to 39. 5 year mortality is skewed to the left with 3 outliers and a range of 2 to 115. Adolescent birth of girls aged 15-19 is skewed to the left with 2 outliers and a range of 2.4 to 184.4. Adolescent birth of girls aged 10-14 is heavily skewed to the left with 6 outliers and a range from 0.0 to 10.7. For data exploration I used boxplots and summary statistics to view the data. To answer the main question I used correlation statistics, scatter plots with summary statistic lines, and also an interactive scatter plot.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results"><strong>Results</strong></h2>
+<p>There is a moderate negative correlation between family planning and neonatal mortality. It has an R coefficient of -0.345. There is also a downward trend in the data when graphing it on a scatter plot by country. There is more of a change in effect of decreased neonatal mortality once over 50% of the population uses family planning methods. Before 50% there is a minimal effect of increasing modern family and the decrease in neonatal mortality. There is also a negative correlation between family planning and 5 year mortality. There is an R coefficient of -0.419. There is a steady downward trend between an increase in family planning and a decrease in 5 year mortality. There is very little negative correlation between family planning and adolescent birth rate of girls age 15-19. The R coefficient is -0.275. There is also a very small negative correlation between family planning and adolescent birth rate of girls age 10-14. The R coefficient is -0.284. For both adolescent birth rate of those ages 15-19 and 10-14 there does not seem to be a very strong downward trajectory of the smooth fit line in the scatter plot which makes it seem like there is not a large effect of family planning on adolescent mortality.</p>
+<p><img src="Density map family planning.png" class="img-fluid"></p>
+<p><img src="density map neonatal.png" class="img-fluid"></p>
+<p><img src="Screen Shot 2023-12-07 at 6.45.03 PM.png" class="img-fluid"></p>
+<p><img src="neonatal.png" class="img-fluid"></p>
+<p><img src="newplot (2).png" class="img-fluid"></p>
+<p><img src="5yeaer.png" class="img-fluid"></p>
+<p><img src="newplot (3).png" class="img-fluid"></p>
+<p><img src="adolescent 1519.png" class="img-fluid"></p>
+<p><img src="newplot (4).png" class="img-fluid"></p>
+<p><img src="adolescent 1014.png" class="img-fluid"></p>
+<p><img src="newplot (1).png" class="img-fluid"></p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h2>
+<p>There seems to be an association between increased family planning and decreased neonatal mortality. This may be the case because more people are able to choose when they want to have a baby and can be better prepared for taking care of that baby when it is born when there is more family planning. Another possible reason this could be true is because when there is increased family planning, women are more capable of planning when they want to have a baby and they can choose a time when they are better able to get prenatal care to ensure the health of the baby. There also seems to be an association between increased family planning and 5 year mortality. Most likely the same reasons apply to why this trend exists. One thing that was interesting was there did not seem to be a strong association between adolescent birth rate of girls age both 15-19 and 10-14 and family planning. This may be the case because family planning methods are probably not marketed to adolescents at the same level they are to adults. This can cause those who become sexually active earlier in life to potentially be more likely to not use family planning methods. It would be interesting to see the use of family planning methods based on age and see if most adolescents regardless of country do not use family planning methods which would explain the lack of association. One potential limitation of this study is that there might have been several countries that we eliminated that had no neonatal mortality data and family planning data. These countries could have strengthened our association because the countries which do not have the capabilities of gathering this data may more likely be from a lower income country and their access to family planning and health care is limited. Therefore, it might be likely that they had low rates of family planning and higher rates of neonatal mortality.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

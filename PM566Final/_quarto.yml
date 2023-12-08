@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "PM566Final"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - SupplementalInformation.qmd
+      - Report.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
